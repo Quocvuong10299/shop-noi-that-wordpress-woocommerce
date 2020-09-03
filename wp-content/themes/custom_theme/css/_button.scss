@@ -1,0 +1,143 @@
+@import "color";
+.btn{
+  padding: 1rem 2rem;
+  display: inline-block;
+  &-primary{
+    display: inline-flex;
+    align-items: center;
+    background-color: $color2;
+    color: white!important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    vertical-align: center;
+    border: none;
+    &:hover{
+      background-color: $color1;
+      color: #fff;
+      text-decoration: none;
+      svg{
+        //stroke: #fff;
+        //fill: #fff;
+      }
+      path{
+        fill: #fff;
+      }
+    }
+  }
+  &-secondary{
+    display: block;
+    color: $color1;
+    background-color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    max-width: 260px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    &:hover{
+      background-color: $color1;
+      color: white;
+    }
+  }
+  &-mini{
+    //background-color: $color_4;
+    padding: 5px 10px!important;
+    //font-family: $font_1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    //@include transition;
+    &:hover{
+      background-color: rgba(#000,0.5);
+      color: #FFFFFF;
+    }
+  }
+  &-a{
+    background-color: $color4;
+    border: medium none;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    &:hover{
+      background-color: $color1;
+      color: white;
+    }
+  }
+  &-b{
+    background-color: #282828!important;
+    border: medium none!important;
+    color: #fff!important;
+    display: block;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 24px;
+    margin-right: 15px;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    border-radius: 0!important;
+    &:hover{
+      background-color: $color1;
+      color: white;
+
+    }
+  }
+  &-submit{
+    background-color: $color1;
+    border: 1px solid $color1;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 24px;
+    margin-right: 15px;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    border-radius: 0!important;
+    &:hover{
+      background-color: white;
+      color: $color1;
+    }
+  }
+  &-add-cart{
+    background-color: $color7!important;
+    border: 1px solid $color7!important;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    height: 36px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    padding: 6px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+      color:$color1;
+      background-color: white;
+      border: 1px solid $color1;
+    }
+  }
+}

@@ -1,0 +1,4 @@
+2020-08-31T09:32:50+00:00 CRITICAL syntax error, unexpected end of file in /opt/lampp/htdocs/wp_noithat/wp-content/themes/custom_theme/woocommerce/archive-product.php on line 108
+
+2020-08-31T14:54:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in /opt/lampp/htdocs/wp_noithat/wp-includes/formatting.php on line 2140
+

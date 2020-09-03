@@ -1,0 +1,11 @@
+2020-08-30T08:44:51+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in /opt/lampp/htdocs/wp_noithat/wp-content/themes/custom_theme/woocommerce/single-product/sale-flash.php:25
+Stack trace:
+#0 /opt/lampp/htdocs/wp_noithat/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /opt/lampp/htdocs/wp_noithat/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1603): wc_get_template('single-product/...')
+#2 /opt/lampp/htdocs/wp_noithat/wp-includes/class-wp-hook.php(287): woocommerce_show_product_sale_flash('')
+#3 /opt/lampp/htdocs/wp_noithat/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /opt/lampp/htdocs/wp_noithat/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wp_noithat/wp-content/themes/custom_theme/woocommerce/content-single-product.php(43): do_action('woocommerce_bef...')
+#6 /opt/lampp/htdocs/wp_noithat/wp-includes/template.php(732): require('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/wp_noithat/wp-content/plugins/woocomm in /opt/lampp/htdocs/wp_noithat/wp-content/themes/custom_theme/woocommerce/single-product/sale-flash.php on line 25
+
